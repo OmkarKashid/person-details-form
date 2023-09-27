@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Info</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="script.js" defer></script>
+  </head>
+  <body>
+    <header><h2 id="form-title">Person Details</h2></header>
+    <div id="form-container">
+      <form>
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName" placeholder="John" />
+
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" id="lastName" placeholder="Doe" />
+
+        <label for="birthDate">Birth Date</label>
+        <input type="date" name="birthDate" id="birthDate" />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="JohnDoe@gmail.com" />
+
+        <label for="contact">Contact Number</label>
+        <input
+          type="number"
+          name="contact"
+          id="contact"
+          placeholder="9456723144" />
+
+        <label for="state">State</label>
+        <select
+          type="text"
+          name="state"
+          id="state"
+          placeholder="Delhi"></select>
+
+        <button type="submit" id="add-btn">Add</button>
+      </form>
+    </div>
+    <div id="people-container">
+      <table id="people-table"></table>
+    </div>
+    <footer></footer>
+  </body>
+</html>
